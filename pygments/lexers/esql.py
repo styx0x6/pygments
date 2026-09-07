@@ -100,7 +100,7 @@ class ESQLLexer(RegexLexer):
     filenames = ["*.esql"] # Not official, we do not add any *.es extension here as it would overlap erlang.ErlangLexer
     mimetypes = []
     url = "https://www.elastic.co/guide/en/elasticsearch/reference/current/esql.html"
-    version_added = '2.21'
+    version_added = '2.22'
 
     flags = re.IGNORECASE
 
